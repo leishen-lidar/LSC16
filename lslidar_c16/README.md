@@ -96,7 +96,8 @@ Note that this launch file launches both the driver and the decoder, which is th
 
 
 ## FAQ
-
+If the driver compilation of 2019.9.19 fails, execute
+sudo apt-get install libpcap-dev
 
 ## Bug Report
 
