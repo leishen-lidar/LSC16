@@ -31,5 +31,4 @@ void LslidarC16DecoderNodelet::onInit() {
 
 } // end namespace lslidar_c16_decoder
 
-PLUGINLIB_DECLARE_CLASS(lslidar_c16_decoder, LslidarC16Nodelet,
-    lslidar_c16_decoder::LslidarC16DecoderNodelet, nodelet::Nodelet);
+PLUGINLIB_EXPORT_CLASS(lslidar_c16_decoder::LslidarC16DecoderNodelet, nodelet::Nodelet);

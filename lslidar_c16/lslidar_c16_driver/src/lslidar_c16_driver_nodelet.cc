@@ -77,5 +77,4 @@ void LslidarC16DriverNodelet::devicePoll()
 // Register this plugin with pluginlib.  Names must match nodelet_lslidar.xml.
 //
 // parameters are: package, class name, class type, base class type
-PLUGINLIB_DECLARE_CLASS(lslidar_c16_driver, LslidarC16DriverNodelet,
-                        lslidar_c16_driver::LslidarC16DriverNodelet, nodelet::Nodelet);
+PLUGINLIB_EXPORT_CLASS(lslidar_c16_driver::LslidarC16DriverNodelet, nodelet::Nodelet);
