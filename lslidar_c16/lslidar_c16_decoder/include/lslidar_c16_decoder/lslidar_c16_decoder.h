@@ -53,7 +53,7 @@ static const int BLOCK_DATA_SIZE =
 // According to Bruce Hall DISTANCE_MAX is 65.0, but we noticed
 // valid packets with readings up to 130.0.
 static const double DISTANCE_MAX        = 130.0;        /**< meters */
-static const double DISTANCE_RESOLUTION = 0.01; /**< meters */
+static const double DISTANCE_RESOLUTION = 0.0025; /**< meters */
 static const double DISTANCE_MAX_UNITS  =
         (DISTANCE_MAX / DISTANCE_RESOLUTION + 1.0);
 
